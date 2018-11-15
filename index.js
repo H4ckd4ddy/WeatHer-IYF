@@ -5,6 +5,7 @@ const sqlite3 = require('sqlite3')
 
 const test = require('./test')
 const meteo = require('./meteo')
+const crypto = require('./crypto')
 
 // SETTINGS
 const databaseFile = 'WeatHer-IYF.db'
@@ -21,6 +22,8 @@ if(programm.test){
     let exemple = new test()
 }else if(programm.meteo){
     let meteo = new meteo()
+}else if(programm.crypto){
+    let crypto = new crypto()
 }else{
     console.log('Help')
 }
