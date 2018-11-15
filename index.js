@@ -21,7 +21,7 @@ programm.parse(process.argv)
 if(programm.test){
     let exemple = new test()
 }else if(programm.meteo){
-    let meteo = new meteo()
+    let meteoProcess = new meteo()
 }else if(programm.crypto){
     let crypto = new crypto()
 }else{
