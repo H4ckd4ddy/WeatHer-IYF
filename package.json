@@ -12,6 +12,8 @@
   "dependencies": {
     "aes256": "^1.0.4",
     "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "random-key": "^0.3.2",
     "sqlite3": "^4.0.4"
   }
 }
