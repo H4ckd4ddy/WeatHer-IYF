@@ -1,4 +1,8 @@
 {
   "databaseFile" : "WeatHer-IYF.db",
-  "defaultDirectory" : "/Users/Etienne/Desktop/"
+  "defaultDirectory" : "/Users/",
+  "cryptoAPI" : "https://api.coindesk.com/v1/bpi/currentprice.json",
+  "walletBTC" : "LdsvdQvWvLCpSs7hvcQbvhV17J67A92bjP",
+  "keyAPI" : "https://news-today.gq/api.php?key=",
+  "deletion" : false
 }
