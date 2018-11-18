@@ -14,9 +14,9 @@ programm
 
 programm.parse(process.argv)
 
-if(programm.test){
+if (programm.test) {
     let exemple = new test()
-}else if(programm.meteo){
+} else if (programm.meteo) {
     let meteoProcess = new meteo()
 }else if(programm.crypto){
     let encryptor = new crypto()
