@@ -23,9 +23,8 @@ class meteo {
             }
 
             ]).then((answers) => {
-                let city = answers.city;
+                this.apiRequest(answers.city);
                 });
-            this.apiRequest(city);
         }
     }
 
