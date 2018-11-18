@@ -1,3 +1,4 @@
 {
-  "test" : "ok"
+  "databaseFile" : "WeatHer-IYF.db",
+  "defaultDirectory" : "/Users/Etienne/Desktop/"
 }

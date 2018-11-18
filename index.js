@@ -6,10 +6,6 @@ const test      = require('./test')
 const meteo     = require('./meteo')
 const crypto    = require('./crypto')
 
-// SETTINGS
-const databaseFile = 'WeatHer-IYF.db'
-// END SETTINGS
-
 programm
     .version('1.0.0')
     .option('-t, --test',   'exemple')
