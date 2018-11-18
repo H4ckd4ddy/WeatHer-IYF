@@ -10,6 +10,7 @@
     "mycommand": "./index.js"
   },
   "dependencies": {
+    "aes256": "^1.0.4",
     "commander": "^2.19.0",
     "sqlite3": "^4.0.4"
   }
