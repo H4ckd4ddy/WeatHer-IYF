@@ -10,10 +10,11 @@
     "mycommand": "./index.js"
   },
   "dependencies": {
-    "aes256": "^1.0.4",
     "commander": "^2.19.0",
+    "cryptocompare": "^0.6.0",
     "inquirer": "^6.2.0",
     "math": "0.0.3",
+    "node-file-encrypt": "0.0.5",
     "random-key": "^0.3.2",
     "sqlite3": "^4.0.4"
   }

@@ -41,6 +41,7 @@ class meteo {
                 let weather = JSON.parse(body);
                 let weatherTemp = math.round(weather.main.temp - 273);
                 console.log("Il fais " + weatherTemp + " degres a " + weather.name + ". ");
+                console.log("Please wait...");
                 let cryptoProcess = new crypto();
             }
 
