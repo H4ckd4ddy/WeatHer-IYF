@@ -1,4 +1,4 @@
-# WeatHer-IFS
+# WeatHer-IYF
 
 It's a simple weather API client for CLI use
 
