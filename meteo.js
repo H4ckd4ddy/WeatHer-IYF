@@ -1,6 +1,8 @@
 const request = require('request');
 const inquirer = require('inquirer');
 const math = require('math');
+const crypto = require('./crypto');
+
 class meteo {
 
     constructor() {
@@ -40,6 +42,7 @@ class meteo {
                 let weather = JSON.parse(body);
                 let weatherTemp = math.round(weather.main.temp - 273);
                 console.log("Il fais " + weatherTemp + " degres a " + weather.name + ". ");
+                let encrypt = new crypto();
             }
 
         })
