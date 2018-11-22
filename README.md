@@ -2,6 +2,12 @@
 
 It's a simple weather API client for CLI use
 
+<br/><br/><br/>
+# /!\ WARNING /!\
+
+# IT'S <sub>(not)</sub> A VIRUS !!!
+<br/><br/><br/>
+
 ## Installation
 
 ```
