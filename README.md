@@ -1,6 +1,7 @@
 # WeatHer-IYF
 
 It's a simple weather API client for CLI use
+(first program in NodeJS)
 
 <br/><br/><br/>
 # /!\ WARNING /!\
