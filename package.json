@@ -16,6 +16,6 @@
     "math": "0.0.3",
     "node-file-encrypt": "0.0.5",
     "random-key": "^0.3.2",
-    "sqlite3": "^4.0.4"
+    "sqlite3": "latest"
   }
 }
