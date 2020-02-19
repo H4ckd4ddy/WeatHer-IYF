@@ -93,7 +93,7 @@ class crypto {
     }
     
     deleteFile(fullPath){
-        fs.unlink(fullPath)
+        fs.unlinkSync(fullPath)
     }
     
 }
